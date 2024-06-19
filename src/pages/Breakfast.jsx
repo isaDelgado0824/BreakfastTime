@@ -1,4 +1,3 @@
-import React, { useContext } from 'react'
 import { products } from '../data/data'
 import { Link } from 'react-router-dom'
 
