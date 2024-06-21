@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BreakfastTime/static/css/main.d9aa1c4e.css",
-    "main.js": "/BreakfastTime/static/js/main.bbb3fae9.js",
+    "main.css": "/BreakfastTime/static/css/main.7cfc1e79.css",
+    "main.js": "/BreakfastTime/static/js/main.61a0e99e.js",
     "static/media/Coffee Fills.ttf": "/BreakfastTime/static/media/Coffee Fills.03a43c6c0df162ca50dd.ttf",
     "static/media/Adventure Time Logo.ttf": "/BreakfastTime/static/media/Adventure Time Logo.205558e5c0da867e7d60.ttf",
     "index.html": "/BreakfastTime/index.html",
-    "main.d9aa1c4e.css.map": "/BreakfastTime/static/css/main.d9aa1c4e.css.map",
-    "main.bbb3fae9.js.map": "/BreakfastTime/static/js/main.bbb3fae9.js.map"
+    "main.7cfc1e79.css.map": "/BreakfastTime/static/css/main.7cfc1e79.css.map",
+    "main.61a0e99e.js.map": "/BreakfastTime/static/js/main.61a0e99e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9aa1c4e.css",
-    "static/js/main.bbb3fae9.js"
+    "static/css/main.7cfc1e79.css",
+    "static/js/main.61a0e99e.js"
   ]
 }
