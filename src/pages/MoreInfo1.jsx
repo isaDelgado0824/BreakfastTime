@@ -17,7 +17,7 @@ const MoreInfo1 = () => {
     }
 
     const { type, price, icon, benefits, origin, fact} = productFound;
-    const imgLink = `/img/Icons/${icon}`
+    const imgLink = `${process.env.PUBLIC_URL}/img/Icons/${icon}`
     const fixedPrice = price.toFixed(2);
     const isOnCart = myProducts.find(myProduct => myProduct.productName === productFound.name);
 
@@ -49,11 +49,11 @@ const MoreInfo1 = () => {
           
           <div className='button-container'>
             {isOnCart ? (
-              <button className='button-container-button' id='button-container-remove' onClick={() => removeProduct(name)}>REMOVE FROM CART</button>
+              <button className='button-container-button more-info-button' id='button-container-remove' onClick={() => removeProduct(name)}>REMOVE FROM CART</button>
             ):(
-              <button className='button-container-button' id='button-container-add' onClick={() => addProduct({productName: name, productPrice: fixedPrice})}>ADD TO CART</button>
+              <button className='button-container-button more-info-button' id='button-container-add' onClick={() => addProduct({productName: name, productPrice: fixedPrice})}>ADD TO CART</button>
             )}
-            <button className='button-container-button' id='button-container-back' onClick={goBack}>BACK TO PRODUCTS</button>
+            <button className='button-container-button more-info-button' id='button-container-back' onClick={goBack}>BACK TO PRODUCTS</button>
           </div>
         </div>
       </div>

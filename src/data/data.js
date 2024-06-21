@@ -60,11 +60,10 @@ export const products = [
     Perfect for a royal breakfast.`,
     price: 3.00,
     icon:'5.jpg',
-    origin: `Princess Bubblegum worked for months to replicate the taste of real fruits,
-    genetically modifying them to enhance their nutrients.`, 
+    origin: `Princess Bubblegum genetically modified candy to replicate the form of real fruits, 
+    enhancing their nutrients.`, 
     benefits: `Eating this cereal improves your senses, making you sharper and more aware.`, 
-    fact: `There's a small chance you might turn into a Candy Kingdom citizen. 
-    Who knows, it might be part of Princess Bubblegum's grand plan!`
+    fact: `There's a small chance you might turn into a Candy Kingdom citizen. Is it a Bubblegum's plan?`
   },
   {
     name: `BMO's Cereal`,

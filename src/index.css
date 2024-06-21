@@ -166,23 +166,24 @@ nav button {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vh
 }
 
 .more-info-container,
 .login-container {
   display: flex;
-  height: 65vh;
+  height: auto;
+  max-height: 610px;
   width: 50vw;
   background-color: var(--white);
   margin: auto 0;
   border-radius: 20px;
   box-shadow: var(--box-shadow-container);
-  min-width: 600px;
+  min-width: 790px;
 }
 
 .more-info-container img {
-  height: 100%;
+  height: auto;
   width: 45%;
   object-fit: cover;
   border-radius: 20px;
@@ -208,6 +209,13 @@ nav button {
   font-weight: 500;
 }
 
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
 
 .button-container-button,
 .login-form button {
@@ -215,12 +223,15 @@ nav button {
   padding: 10px 20px;
   font-size: 0.9em;
   margin-right: 10px;
-  width:fit-content;
   background-color: var(--candy-salmon);
   color: var(--white);
   border-radius: 3px;
   cursor: pointer;
   box-shadow: var(--box-shadow-button) var(--candy-orange);
+}
+
+.more-info-button {
+  flex: 1 1 auto;
 }
 
 #button-container-remove {
@@ -275,6 +286,7 @@ nav button {
 .my-products-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 1vh;
 }
 
@@ -283,12 +295,11 @@ nav button {
   padding: 20px 25px;
   border-radius: 8px;
   background-color: var(--white);
-  width: 95%;
   justify-content:space-between;
 }
 
 .my-product div {
-  width: 25%;
+  width: 20%
 }
 
 .my-product h3 {
@@ -317,6 +328,7 @@ nav button {
   font-size: 1.4em;
   cursor: pointer;
 }
+
 
 .login-container img{
   width: 50%;
